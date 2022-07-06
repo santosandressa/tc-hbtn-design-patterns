@@ -81,15 +81,7 @@ public abstract class Personagem {
     @Override
     public String toString() {
         DecimalFormat df = new DecimalFormat("#.##");
-        return "Personagem{" +
-                "nome='" + nome + '\'' +
-                ", tipo=" + tipo +
-                ", inteligencia=" + inteligencia +
-                ", forca=" + forca +
-                ", vigor=" + vigor +
-                ", resistencia=" + resistencia +
-                ", destreza=" + destreza +
-                ", dano ataque=" + df.format(getDanoAtaque()) +
-                '}';
+
+        return "Personagem { nome = " + nome + ", tipo = " + tipo + ", inteligencia = " + df.format(inteligencia) + ", forca = " + df.format(forca) + ", vigor = " + df.format(vigor) + ", resistencia = " + df.format(resistencia) + ", destreza = " + df.format(destreza) + ", " + df.format(getDanoAtaque()) + " }";
     }
 }
