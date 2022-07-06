@@ -1,5 +1,3 @@
-import java.text.DecimalFormat;
-
 public abstract class Personagem {
 
     private String nome;
@@ -76,12 +74,19 @@ public abstract class Personagem {
         this.destreza = destreza;
     }
 
-     public abstract double getDanoAtaque();
+    public abstract double getDanoAtaque();
 
     @Override
     public String toString() {
-        DecimalFormat df = new DecimalFormat("#.##");
-
-        return "Personagem { nome = " + nome + ", tipo = " + tipo + ", inteligencia = " + df.format(inteligencia) + ", forca = " + df.format(forca) + ", vigor = " + df.format(vigor) + ", resistencia = " + df.format(resistencia) + ", destreza = " + df.format(destreza) + ", " + df.format(getDanoAtaque()) + " }";
+        return "Personagem { " +
+                "nome = " + nome +
+                ", tipo = " + tipo +
+                ", inteligencia = " + inteligencia +
+                ", forca = " + forca +
+                ", vigor = " + vigor +
+                ", resistencia = " + resistencia +
+                ", destreza = " + destreza +
+                ", dano ataque = " + String.format("%,.2f", getDanoAtaque()) +
+                " }";
     }
 }
