@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb0d35a0-be6e-47ff-a04f-bfb5c797f819" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem-builder/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem-builder/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem-builder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem-builder/Guerreiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem-builder/Ladrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem-builder/Mago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem-builder/Personagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem-builder/TipoPersonagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/.idea/personagem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/Guerreiro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/Ladrao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/Mago.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/Personagem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/PersonagemFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/TerraMediaPersonagemFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/TipoPersonagem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/out/production/personagem/WesterosPersonagemFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personagem/personagem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personagem/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/personagem-builder/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personagem/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/personagem/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personagem/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/personagem/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personagem/.idea/personagem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/personagem-builder/personagem-builder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personagem/Guerreiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/personagem/Guerreiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personagem/Ladrao.java" beforeDir="false" afterPath="$PROJECT_DIR$/personagem/Ladrao.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BZdZ0fxvjKbTDBfaHJzq2Ug0eS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "temurin-11",
+    "last_opened_file_path": "/home/andressas/Documentos/tc-hbtn-design-patterns/0x00/personagem-builder",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="0x00" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="0x00" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb0d35a0-be6e-47ff-a04f-bfb5c797f819" name="Changes" comment="" />
+      <created>1657117592903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657117592903</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
