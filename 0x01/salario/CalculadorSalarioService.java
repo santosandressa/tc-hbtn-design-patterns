@@ -1,17 +1,17 @@
 import java.util.UUID;
 
-public class CalculadoraSalarioService {
+public class CalculadorSalarioService {
 
-    private static CalculadoraSalarioService instancia;
+    public static CalculadorSalarioService instancia;
 
     public UUID uuid = UUID.randomUUID();
 
-    public static CalculadoraSalarioService getInstancia() {
+    public static CalculadorSalarioService getInstancia() {
         return instancia;
     }
 
-    public static void setInstancia(CalculadoraSalarioService instancia) {
-        CalculadoraSalarioService.instancia = instancia;
+    public static void setInstancia(CalculadorSalarioService instancia) {
+        CalculadorSalarioService.instancia = instancia;
     }
 
     public UUID getUuid() {
@@ -22,12 +22,12 @@ public class CalculadoraSalarioService {
         this.uuid = uuid;
     }
 
-    private CalculadoraSalarioService() {
+    private CalculadorSalarioService() {
     }
 
-    public static CalculadoraSalarioService getCalculadoraSalarioService() {
+    public static CalculadorSalarioService getCalculadoraSalarioService() {
         if (instancia == null) {
-            instancia = new CalculadoraSalarioService();
+            instancia = new CalculadorSalarioService();
         }
 
         return instancia;
