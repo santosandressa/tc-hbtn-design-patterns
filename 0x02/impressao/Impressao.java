@@ -10,6 +10,7 @@ public class Impressao {
     private TamanhoImpressao tamanhoImpressao;
 
     private int paginasBrancoPreto;
+
     public Impressao(TamanhoImpressao tamanhoImpressao, int totalPaginas, int quantidadePaginasColoridas, boolean ehFrenteVerso) {
         this.tamanhoImpressao = tamanhoImpressao;
         this.paginasTotais = totalPaginas;
@@ -70,6 +71,4 @@ public class Impressao {
 
         return String.format("total de paginas: %d, total coloridas: %d, total preto e branco: %d, %s. total: R$ %.2f", getPaginasTotais(), getPaginasColoridas(), getPaginasTotais() - getPaginasColoridas(),frenteVerso,calcularTotal());
     }
-
-
 }
