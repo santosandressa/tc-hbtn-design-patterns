@@ -1,6 +1,6 @@
 public class MediaPlayerAdapter implements MediaPlayer {
 
-    private AdvanceMediaPlayer advanceMediaPlayer;
+    private AdvancedMediaPlayer advanceMediaPlayer;
 
     public MediaPlayerAdapter(TipoMedia tipoMedia) {
         if (!(tipoMedia == TipoMedia.MP3)) {

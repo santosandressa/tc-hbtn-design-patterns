@@ -1,4 +1,4 @@
-public interface AdvanceMediaPlayer {
+public interface AdvancedMediaPlayer {
 
     void reproduzirVlc(String nome);
 
